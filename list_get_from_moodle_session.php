@@ -3,7 +3,7 @@
 Login as admin in moodle and go to
 Site administration/Server/Session handling
 [Use database for session information] Must be unchecked.
-[Cookie path] Must be default value.
+[Cookie path] Must be default value. [/nls/]
 */
 session_start();
 
