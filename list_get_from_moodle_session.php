@@ -1,5 +1,10 @@
 <?php
-// We really need to start the session before doing anything else!!!!!
+/*
+Login as admin in moodle and go to
+Site administration/Server/Session handling
+[Use database for session information] Must be unchecked.
+[Cookie path] /
+*/
 session_start();
 
 function get_app_session_config() {
@@ -85,7 +90,6 @@ var_export($_SESSION);
 <!DOCTYPE html>
 <html>
 <body>
-
 
 </body>
 </html>
